@@ -20,8 +20,8 @@ header {
 }
 
 .logo {
-  height: 50px;
   float: left;
+  height: 50px;
   padding-left: 10px;
 }
 
@@ -31,31 +31,46 @@ header {
   margin: 0px auto;
 }
 
-.nav a {
-  height: 100%;
+.nav li {
   display: table;
   float: left;
+  height: 100%;
   padding: 0px 20px;
 }
 
-.nav a li {
+.nav li a {
   color: seashell;
   display: table-cell;
-  vertical-align: middle;
   height: 100%;
+  vertical-align: middle;
   text-decoration: underline;
 }
 
 .mission-container {
   background-image: url(../resources/img-mission-background.jpg);
-  height: 700px;
-  width: 1200px;
-  margin: 0 auto;
   display: flex;
+  height: 700px;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .banner {
   background-color: black;
   margin: auto;
   width: 100%;
+}
+
+.gallery {
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.image-box img {
+  height: 200px;
+  padding: 10px;
+  width: 300px;
 }
