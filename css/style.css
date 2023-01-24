@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  background-color: black;
   border-bottom: 1px solid seashell;
   display: block;
   height: 69px;
@@ -34,7 +35,7 @@ header {
   height: 100%;
   display: table;
   float: left;
-  padding: 0px auto;
+  padding: 0px 20px;
 }
 
 .nav a li {
@@ -43,4 +44,18 @@ header {
   vertical-align: middle;
   height: 100%;
   text-decoration: underline;
+}
+
+.mission-container {
+  background-image: url(../resources/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.banner {
+  background-color: black;
+  margin: auto;
+  width: 100%;
 }
